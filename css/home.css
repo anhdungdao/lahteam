@@ -1,0 +1,128 @@
+/* 
+
+COLORS:
+linear-gradient (#66DBFF, #B73FFF)
+medium blue:#5a73fc
+dark blue:#1c3eff
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+#menu ul li{
+    display: inline-table;
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    color: #EB9CFF;
+}
+
+
+#intro{
+    display: grid;
+    /* W(adjusted) = W(individual) - (1rem * 1/2) */
+    grid-template-columns: calc(50% - (30px * 1/2)) calc(50% - (30px * 1/2));
+    grid-column-gap: 30px;
+}
+#intro ul .intro1{
+    padding: 30px;
+    color: #fff;
+    background-color: red;
+    width: 576px;
+    height: 762px;
+}
+#intro ul li h3{
+    font-family: Mulish;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px; /* 77.273% */
+    letter-spacing: -1.76px;
+    background: var(--Gradient-2, linear-gradient(90deg, #66DBFF 0%, #B73FFF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#intro ul li h5{
+    color: white;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+#intro ul li button{
+    display: flex;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
+    color: #FFF;
+
+    text-align: right;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* #bt{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
+    display: flex;
+    padding: 16px 36px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#bt a{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
+    display: flex;
+    padding: 16px 36px;
+
+    text-align: right;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+ */
