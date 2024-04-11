@@ -11,7 +11,10 @@ dark blue:#1c3eff
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6e9dd6f (1104)
 }
 
 body {
@@ -20,7 +23,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 6e9dd6f (1104)
 
 }
 
@@ -31,7 +37,11 @@ body {
     height: 60px;
 }
 #menu_tit{
+<<<<<<< HEAD
     
+=======
+    background-color: red;
+>>>>>>> 6e9dd6f (1104)
     border-radius: 1000px;
     border: 1px solid rgba(255, 255, 255, 0.30);
     background: var(--BG-linear, linear-gradient(90deg, rgba(62, 0, 142, 0.08) 0%, rgba(58, 5, 100, 0.08) 100%));
@@ -66,6 +76,7 @@ body {
 
 
 
+<<<<<<< HEAD
 #mid div{
     display: inline-table;
     list-style-type: none;
@@ -82,6 +93,17 @@ body {
     list-style-type: none;
     /* margin-right: 80px;  */
     float: left;
+=======
+#intro ul .intro1{
+    padding: 30px;
+    color: #fff;
+    width: 576px;
+    height: 762px;
+    margin-left: 80px;
+    list-style-type: none;
+    float: left;
+    margin-right: 80px;
+>>>>>>> 6e9dd6f (1104)
 }
 #intro ul li h3{
     margin-top: 217.5px;
@@ -112,6 +134,10 @@ body {
     padding: 16px 36px;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e9dd6f (1104)
     color: #FFF;
     text-align: right;
     font-family: Mulish;
@@ -124,7 +150,10 @@ body {
     border-radius: 8px;
     background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
     float: left;
+<<<<<<< HEAD
     margin-right: 24px;
+=======
+>>>>>>> 6e9dd6f (1104)
 }
 #intro ul li .bt2{
     border-radius: 8px;
@@ -137,7 +166,11 @@ body {
     width: 624px;
     height: 742px;
     margin-top: 40px;
+<<<<<<< HEAD
     margin-left: 10%;
+=======
+    margin-left: 736px;
+>>>>>>> 6e9dd6f (1104)
 }
 #imgz ul li{
     position: absolute;
@@ -167,6 +200,7 @@ body {
 #imgz ul .img7{
     margin-top: 529px;
 }
+<<<<<<< HEAD
 
 
 #trust h2{
@@ -428,15 +462,32 @@ body {
     margin-bottom: 95.5px;
     display: flex;
 
+=======
+/* #bt{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
+    display: flex;
+>>>>>>> 6e9dd6f (1104)
     padding: 16px 36px;
     justify-content: center;
     align-items: center;
 
+<<<<<<< HEAD
     border-radius: 8px;
     border: 1px solid var(--Gradient-2, #66DBFF);
     background: linear-gradient(90deg, rgba(62, 0, 142, 0.20) 0%, rgba(58, 5, 100, 0.20) 100%);
 
     color: #FFF;
+=======
+
+}
+#bt a{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #66DBFF 0%, #869EFF 48.63%, #B73FFF 100%);
+    display: flex;
+    padding: 16px 36px;
+
+>>>>>>> 6e9dd6f (1104)
     text-align: right;
     font-family: Mulish;
     font-size: 28px;
@@ -444,6 +495,7 @@ body {
     font-weight: 600;
     line-height: normal;
 }
+<<<<<<< HEAD
 #service .serBox{
 
     /* Body/body med */
@@ -873,3 +925,7 @@ button:hover{
 }
 
   
+=======
+
+ */
+>>>>>>> 6e9dd6f (1104)
