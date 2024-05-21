@@ -1091,4 +1091,7 @@ button:hover {
   #blog{
     display: none;
   }
+  #end{
+    display: none;
+  }
 }
