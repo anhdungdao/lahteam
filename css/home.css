@@ -164,7 +164,7 @@ body {
   );
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   #mid div{
     margin-left: 0%;
   }
@@ -210,6 +210,7 @@ body {
     line-height: 24px; /* 150% */
   }
   #intro ul li .bt1{
+    width: 159px;
     padding: 8px 12px;
     justify-content: center;
     align-items: center;
@@ -227,6 +228,7 @@ body {
 
   }
   #intro ul li .bt2{
+    width: 159px;
     padding: 8px 12px;
     justify-content: center;
     align-items: center;
@@ -284,23 +286,19 @@ body {
 #imgMob li{
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   #imgz ul{
     display: none;
   }
   #imgMob{
-    display: inline-flex;
-    align-items: center;
-    justify-items: center;
+    margin-top: 40px;
+    background-color: red;
   }
   #imgMob ul{
     float: left;
-    margin-left: 6%;
   }
   #imgMob li {
     display: flex;
-    list-style-type: none;
-    
   }
   #imgMob ul img{
     width: 160px;
@@ -321,8 +319,10 @@ body {
     width: 160px;
     height: 152px;
   }
+  #imgMob .img10{
+  }
   #imgMob .img10 img{
-    margin-left: 16px;
+    margin-left: 5%;
     width: 160px;
     height: 320px;
     object-fit: cover;
@@ -388,6 +388,47 @@ body {
   line-height: 28px; /* 155.556% */
 
   width: 154px;
+}
+@media only screen and (max-width: 500px){
+  #trust {
+    background-color: #0B0014;
+    margin-top: 35px;
+    text-align: center;
+  }
+  #trust h2 {
+    margin-top: 32.5px;
+    color: rgba(255, 255, 255, 0.40);
+
+    text-align: center;
+    /* Body/body med */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+  }
+  #trust ul{
+    width: 100%;
+    margin: 20px 2px;
+    gap: 20px;
+  }
+  #trust .logo li img{
+    width: auto;
+    height: 32px; 
+    object-fit: cover;
+  }
+  #trust .text .number{
+    font-family: Mulish;
+    font-size: 18px;
+    margin-right: -90px;
+  }
+  #trust .text .text1{
+    font-family: Inter;
+    font-size: 12px; 
+    line-height: 16px;
+    width: 94px; 
+    margin-left: 72px;  
+  }
 }
 #model {
   display: inline-flexbox;
@@ -1076,9 +1117,6 @@ button:hover {
   filter: brightness(150%);
 }
 @media only screen and (max-width: 600px) {
-  #trust{
-    display: none;
-  }
   #model{
     display: none;
   }
