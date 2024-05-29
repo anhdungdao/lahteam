@@ -137,7 +137,7 @@ body {
   /* margin-left: 6%; */
 }
 #mid .intro1{
-  margin-left: -35%;
+  margin-left: -10%;
 }
 
 #intro ul .intro1 {
@@ -1481,7 +1481,11 @@ background: rgba(255, 255, 255, 0.04);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
+  #blog .lh .lh1 .lhlah{
+    display:flex;
+  }
 }
+
 
 #end {
   height: 371px;
