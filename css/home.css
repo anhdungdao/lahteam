@@ -26,6 +26,18 @@ body {
   }
 }
 
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Đảm bảo menu hiển thị trên tất cả các phần khác */
+  /* Màu nền của menu */
+  transition: background-color 0.3s ease;
+  /* Hiệu ứng chuyển đổi màu nền khi cuộn */
+}
+
 #menu ul {
   margin-top: 18px;
   display: flex;
@@ -128,6 +140,7 @@ body {
 } */
 }
 #mid{
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -210,6 +223,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   #mid{
+    margin-top: 120px;
     height: 230px;
   }
   #mid div{
