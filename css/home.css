@@ -25,7 +25,6 @@ body {
     background-position: center;
   }
 }
-
 #menu {
   position: fixed;
   top: 0;
@@ -37,7 +36,6 @@ body {
   transition: background-color 0.3s ease;
   /* Hiệu ứng chuyển đổi màu nền khi cuộn */
 }
-
 #menu ul {
   margin-top: 18px;
   display: flex;
@@ -91,6 +89,9 @@ body {
 #menu ul li a:hover {
   color: #eb9cff;
 }
+label{
+  display: none;
+}
 #open{
   display: none;
 } 
@@ -98,6 +99,9 @@ body {
 @media only screen and (max-width: 600px) {
   #menu #none{
     height: 0px;
+  }
+  label{
+    display: flex;
   }
   #menu ul{
     overflow: hidden;
@@ -572,7 +576,7 @@ body {
   overflow-x: auto;
 
   width: auto;
-
+  height: 500px;
   scrollbar-color: #66dbff rgba(62, 0, 142, 0.2);
   scrollbar-width: thin;
 }
@@ -666,7 +670,6 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
   #model{
     margin-top: 0px;
     padding: 36px;
-    background-color: red;
     height: 600px;
   }
   .modelText {
@@ -694,6 +697,7 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
     margin-right: -30px;
     display: flex;
     order: 2;
+    height: auto;
   }
   #model .modelImg a{
     position: flex;
@@ -722,6 +726,10 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
       rgba(12, 0, 21, 0.7) 84.92%
     ),
     url(<path-to-image>) lightgray 50% / cover no-repeat;
+  }
+  #model .modelImg a .ci1:hover {
+    
+    display: none;
   }
   #model .modelImg a .ai1 {
     margin-top: -80px;
@@ -979,14 +987,18 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
     line-height: 24px; /* 150% */
   }
   #service .serBox {
-    margin-top: -65px;
-    margin-left: 13%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    /* margin-top: -65px;*/
+    margin-left: 0px; 
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
-    display: flex;
     margin-bottom: 36px;
   }
   #service .serbox ul{
@@ -1246,11 +1258,11 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
   #team .about {
     display: inline-table;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
   }
   #team .about .big {
-    margin-left: 17%;
-    width:  290px;
+    /* margin-left: 17%; */
+    width:  100%;
     margin-top: 16px;
     display: flex;
     padding: 12px 12px 12px 12px;
@@ -1262,6 +1274,7 @@ box-shadow: 0px 0px 54px 0px rgba(201, 147, 255, 0.32);
     justify-items: center;
   }
   #team .about .big img{
+    margin-left: 17%;
     object-fit: cover;
     height: 90px;
     margin-right: 10px;
