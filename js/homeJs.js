@@ -36,17 +36,6 @@ function typing(){
 }
 typing();
 
-//menu click
-const body =document.getElementById("body");
-var menuClick = document.getElementById("menu_tit")
-  menuClick.addEventListener("click",()=>{
-    window.scrollBy({
-      top:-100,
-      left:0,
-      behavior:"smooth",
-    });
-  });
-
 
  
 

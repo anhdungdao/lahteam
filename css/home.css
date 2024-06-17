@@ -147,12 +147,12 @@ label{
 } */
 }
 #mid{
-  margin-top: 180px;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
 #mid div {
+  margin-top: 180px;
   list-style-type: none;
   /* margin-left: 6%; */
 }
@@ -236,6 +236,7 @@ label{
     height: 250px;
   }
   #mid div{
+    margin-top: 0px;
     margin-left: 0%;
   }
   #intro{
